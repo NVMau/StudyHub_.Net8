@@ -17,7 +17,7 @@ namespace StudyHub.Controllers
 
         }
 
-        [HttpPost("create-cauhoi")]
+        [HttpPost("create_cauhoi")]
         public IActionResult CreateCauhoi([FromBody] CauHoiReq cauhoiReq)
         {
             if (cauhoiReq.IdMonHoc <= 0 || cauhoiReq.IdLoaiCauHoi <= 0) // Kiểm tra điều kiện cần thiết
@@ -29,8 +29,15 @@ namespace StudyHub.Controllers
             return Ok(res);
         }
 
+        [HttpGet("by_monhoc/{idMonHoc}")]
+        public IActionResult GetCauHoisByMonHoc(int idMonHoc)
+        {
+            var res = cauhoiSvc.GetCauHoisByMonHoc(idMonHoc);
+            return Ok(res);
+        }
 
-        [HttpPost("search-cauhoi")]
+
+        [HttpPost("search_cauhoi")]
         public IActionResult SearchCauhoi([FromBody] SearchCauHoiReq searchCauhoiReq)
         {
             var res = new SingleRsp();

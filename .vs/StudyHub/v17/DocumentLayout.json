@@ -3,35 +3,39 @@
   "WorkspaceRootPath": "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\studyhub\\controllers\\cauhoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\controllers\\cauhoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\studyhub.dal\\cauhoirep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\cauhoirep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\studyhub.bll\\cauhoisvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\cauhoisvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D13CD0-DDE0-4B66-B81B-4F3C93F77B1E}|StudyHub.Common\\StudyHub.Common.csproj|d:\\learning school\\semester2_year3\\studyhub\\studyhub.common\\dal\\genericrep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D13CD0-DDE0-4B66-B81B-4F3C93F77B1E}|StudyHub.Common\\StudyHub.Common.csproj|solutionrelative:studyhub.common\\dal\\genericrep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D13CD0-DDE0-4B66-B81B-4F3C93F77B1E}|StudyHub.Common\\StudyHub.Common.csproj|D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\studyhub.common\\req\\cauhoireq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D13CD0-DDE0-4B66-B81B-4F3C93F77B1E}|StudyHub.Common\\StudyHub.Common.csproj|solutionrelative:studyhub.common\\req\\cauhoireq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D13CD0-DDE0-4B66-B81B-4F3C93F77B1E}|StudyHub.Common\\StudyHub.Common.csproj|D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\studyhub.common\\bll\\genericsvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D13CD0-DDE0-4B66-B81B-4F3C93F77B1E}|StudyHub.Common\\StudyHub.Common.csproj|solutionrelative:studyhub.common\\bll\\genericsvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A7D13CD0-DDE0-4B66-B81B-4F3C93F77B1E}|StudyHub.Common\\StudyHub.Common.csproj|d:\\learning school\\semester2_year3\\studyhub\\studyhub.common\\bll\\igenericsvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7D13CD0-DDE0-4B66-B81B-4F3C93F77B1E}|StudyHub.Common\\StudyHub.Common.csproj|solutionrelative:studyhub.common\\bll\\igenericsvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7D13CD0-DDE0-4B66-B81B-4F3C93F77B1E}|StudyHub.Common\\StudyHub.Common.csproj|d:\\learning school\\semester2_year3\\studyhub\\studyhub.common\\bll\\genericsvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7D13CD0-DDE0-4B66-B81B-4F3C93F77B1E}|StudyHub.Common\\StudyHub.Common.csproj|solutionrelative:studyhub.common\\bll\\genericsvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|d:\\learning school\\semester2_year3\\studyhub\\studyhub\\controllers\\cauhoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\controllers\\cauhoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7D13CD0-DDE0-4B66-B81B-4F3C93F77B1E}|StudyHub.Common\\StudyHub.Common.csproj|d:\\learning school\\semester2_year3\\studyhub\\studyhub.common\\req\\searchcauhoireq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A7D13CD0-DDE0-4B66-B81B-4F3C93F77B1E}|StudyHub.Common\\StudyHub.Common.csproj|D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\studyhub.common\\req\\searchcauhoireq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7D13CD0-DDE0-4B66-B81B-4F3C93F77B1E}|StudyHub.Common\\StudyHub.Common.csproj|solutionrelative:studyhub.common\\req\\searchcauhoireq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|d:\\learning school\\semester2_year3\\studyhub\\studyhub.bll\\cauhoisvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\cauhoisvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7D13CD0-DDE0-4B66-B81B-4F3C93F77B1E}|StudyHub.Common\\StudyHub.Common.csproj|d:\\learning school\\semester2_year3\\studyhub\\studyhub.common\\req\\cauhoireq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7D13CD0-DDE0-4B66-B81B-4F3C93F77B1E}|StudyHub.Common\\StudyHub.Common.csproj|solutionrelative:studyhub.common\\req\\cauhoireq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|d:\\learning school\\semester2_year3\\studyhub\\studyhub.dal\\cauhoirep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\cauhoirep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|d:\\learning school\\semester2_year3\\studyhub\\studyhub.dal\\models\\cauhoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\studyhub.dal\\models\\cauhoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\models\\cauhoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,76 +46,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "GenericRep.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub.Common\\DAL\\GenericRep.cs",
+              "RelativeDocumentMoniker": "StudyHub.Common\\DAL\\GenericRep.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub.Common\\DAL\\GenericRep.cs",
+              "RelativeToolTip": "StudyHub.Common\\DAL\\GenericRep.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T11:28:36.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "IGenericSvc.cs",
               "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub.Common\\BLL\\IGenericSvc.cs",
               "RelativeDocumentMoniker": "StudyHub.Common\\BLL\\IGenericSvc.cs",
               "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub.Common\\BLL\\IGenericSvc.cs",
               "RelativeToolTip": "StudyHub.Common\\BLL\\IGenericSvc.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAwwDUAAAAtAAAA",
+              "ViewState": "AQIAADQAAAAAAAAAAAAcwDkAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T08:50:55.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "GenericSvc.cs",
               "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub.Common\\BLL\\GenericSvc.cs",
               "RelativeDocumentMoniker": "StudyHub.Common\\BLL\\GenericSvc.cs",
               "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub.Common\\BLL\\GenericSvc.cs",
               "RelativeToolTip": "StudyHub.Common\\BLL\\GenericSvc.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAiwFgAAAAZAAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAAA6wFgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T08:24:42.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CauhoiController.cs",
               "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub\\Controllers\\CauhoiController.cs",
               "RelativeDocumentMoniker": "StudyHub\\Controllers\\CauhoiController.cs",
               "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub\\Controllers\\CauhoiController.cs",
               "RelativeToolTip": "StudyHub\\Controllers\\CauhoiController.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAQwBwAAAAbAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABgAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T08:24:05.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "CauHoiSvc.cs",
               "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub.BLL\\CauHoiSvc.cs",
               "RelativeDocumentMoniker": "StudyHub.BLL\\CauHoiSvc.cs",
               "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub.BLL\\CauHoiSvc.cs",
               "RelativeToolTip": "StudyHub.BLL\\CauHoiSvc.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAqwDgAAAA4AAAA",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAAEwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T08:19:38.114Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "CauHoiReq.cs",
               "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub.Common\\Req\\CauHoiReq.cs",
               "RelativeDocumentMoniker": "StudyHub.Common\\Req\\CauHoiReq.cs",
               "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub.Common\\Req\\CauHoiReq.cs",
               "RelativeToolTip": "StudyHub.Common\\Req\\CauHoiReq.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T08:19:27.772Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "SearchCauHoiReq.cs",
               "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub.Common\\Req\\SearchCauHoiReq.cs",
               "RelativeDocumentMoniker": "StudyHub.Common\\Req\\SearchCauHoiReq.cs",
@@ -119,12 +136,11 @@
               "RelativeToolTip": "StudyHub.Common\\Req\\SearchCauHoiReq.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T08:19:22.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T08:19:22.5Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CauHoi.cs",
               "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub.DAL\\Models\\CauHoi.cs",
               "RelativeDocumentMoniker": "StudyHub.DAL\\Models\\CauHoi.cs",
@@ -132,18 +148,17 @@
               "RelativeToolTip": "StudyHub.DAL\\Models\\CauHoi.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAYwBcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T08:19:08.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T08:19:08.325Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "CauhoiRep.cs",
               "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub.DAL\\CauhoiRep.cs",
               "RelativeDocumentMoniker": "StudyHub.DAL\\CauhoiRep.cs",
               "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub.DAL\\CauhoiRep.cs",
               "RelativeToolTip": "StudyHub.DAL\\CauhoiRep.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBIAAAA6AAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAUwC8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T08:18:57.268Z",
               "EditorCaption": ""

@@ -140,3 +140,4 @@ D:\LEARNING SCHOOL\Semester2_Year3\StudyHub\StudyHub\obj\Debug\net8.0\refint\Stu
 D:\LEARNING SCHOOL\Semester2_Year3\StudyHub\StudyHub\obj\Debug\net8.0\StudyHub.pdb
 D:\LEARNING SCHOOL\Semester2_Year3\StudyHub\StudyHub\obj\Debug\net8.0\StudyHub.genruntimeconfig.cache
 D:\LEARNING SCHOOL\Semester2_Year3\StudyHub\StudyHub\obj\Debug\net8.0\ref\StudyHub.dll
+D:\LEARNING SCHOOL\Semester2_Year3\StudyHub\StudyHub\obj\Debug\net8.0\StudyHub.sourcelink.json

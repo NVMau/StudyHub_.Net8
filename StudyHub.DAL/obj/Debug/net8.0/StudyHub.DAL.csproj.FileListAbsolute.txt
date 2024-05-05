@@ -15,3 +15,4 @@ D:\LEARNING SCHOOL\Semester2_Year3\StudyHub\StudyHub.DAL\obj\Debug\net8.0\refint
 D:\LEARNING SCHOOL\Semester2_Year3\StudyHub\StudyHub.DAL\obj\Debug\net8.0\StudyHub.DAL.pdb
 D:\LEARNING SCHOOL\Semester2_Year3\StudyHub\StudyHub.DAL\obj\Debug\net8.0\StudyHub.DAL.genruntimeconfig.cache
 D:\LEARNING SCHOOL\Semester2_Year3\StudyHub\StudyHub.DAL\obj\Debug\net8.0\ref\StudyHub.DAL.dll
+D:\LEARNING SCHOOL\Semester2_Year3\StudyHub\StudyHub.DAL\obj\Debug\net8.0\StudyHub.DAL.sourcelink.json

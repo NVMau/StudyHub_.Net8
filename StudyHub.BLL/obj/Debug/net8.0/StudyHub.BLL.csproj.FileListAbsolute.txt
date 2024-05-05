@@ -17,3 +17,4 @@ D:\LEARNING SCHOOL\Semester2_Year3\StudyHub\StudyHub.BLL\obj\Debug\net8.0\refint
 D:\LEARNING SCHOOL\Semester2_Year3\StudyHub\StudyHub.BLL\obj\Debug\net8.0\StudyHub.BLL.pdb
 D:\LEARNING SCHOOL\Semester2_Year3\StudyHub\StudyHub.BLL\obj\Debug\net8.0\StudyHub.BLL.genruntimeconfig.cache
 D:\LEARNING SCHOOL\Semester2_Year3\StudyHub\StudyHub.BLL\obj\Debug\net8.0\ref\StudyHub.BLL.dll
+D:\LEARNING SCHOOL\Semester2_Year3\StudyHub\StudyHub.BLL\obj\Debug\net8.0\StudyHub.BLL.sourcelink.json

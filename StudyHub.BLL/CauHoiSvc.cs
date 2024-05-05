@@ -49,6 +49,9 @@ namespace StudyHub.BLL
             cauHoiRep = new CauHoiRep();
         }
 
+
+
+
         public SingleRsp CreateCauhoi(CauHoiReq cauHoiReq)
         {
             var res = new SingleRsp();
@@ -59,6 +62,22 @@ namespace StudyHub.BLL
             res = cauHoiRep.CreateCauhoi(cauHoi);
             return res;
         }
+
+        public SingleRsp GetCauHoisByMonHoc(int idMonHoc)
+        {
+            var res = new SingleRsp();
+            var cauhois = cauHoiRep.GetCauHoisByMonHoc(idMonHoc);
+            if (cauhois == null || cauhois.Count == 0)
+            {
+                res.SetError("No questions found for the given subject.");
+            }
+            else
+            {
+                res.Data = cauhois;
+            }
+            return res;
+        }
+
 
         public SingleRsp SearchCauhoi(SearchCauHoiReq s)
         {

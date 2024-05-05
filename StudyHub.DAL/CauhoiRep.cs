@@ -26,6 +26,9 @@ namespace StudyHub.DAL
         }
 
 
+         
+
+
         public int Remove(int id)
         {
             var m = base.All.First(i => i.IdCauHoi == id);
@@ -37,6 +40,12 @@ namespace StudyHub.DAL
 
         #region -- Methods --
 
+
+
+        public List<CauHoi> GetCauHoisByMonHoc(int idMonHoc)
+        {
+            return All.Where(x => x.IdMonHoc == idMonHoc).ToList();
+        }
         public SingleRsp CreateCauhoi(CauHoi cauhoi)
         {
             var res = new SingleRsp();
