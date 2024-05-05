@@ -1596,7 +1596,6 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4",
-          "StudyHub.Common": "1.0.0",
           "StudyHub.DAL": "1.0.0"
         },
         "compile": {
@@ -1606,27 +1605,12 @@
           "bin/placeholder/StudyHub.BLL.dll": {}
         }
       },
-      "StudyHub.Common/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "8.0.4",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4"
-        },
-        "compile": {
-          "bin/placeholder/StudyHub.Common.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/StudyHub.Common.dll": {}
-        }
-      },
       "StudyHub.DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.4",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4",
-          "StudyHub.Common": "1.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4"
         },
         "compile": {
           "bin/placeholder/StudyHub.DAL.dll": {}
@@ -4563,11 +4547,6 @@
       "path": "../StudyHub.BLL/StudyHub.BLL.csproj",
       "msbuildProject": "../StudyHub.BLL/StudyHub.BLL.csproj"
     },
-    "StudyHub.Common/1.0.0": {
-      "type": "project",
-      "path": "../StudyHub.Common/StudyHub.Common.csproj",
-      "msbuildProject": "../StudyHub.Common/StudyHub.Common.csproj"
-    },
     "StudyHub.DAL/1.0.0": {
       "type": "project",
       "path": "../StudyHub.DAL/StudyHub.DAL.csproj",
@@ -4580,24 +4559,23 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.4",
       "StudyHub.BLL >= 1.0.0",
-      "StudyHub.Common >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nmau4\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub\\StudyHub.csproj",
+      "projectUniqueName": "D:\\HOC TAP\\Ky2Nam3\\ProjectDotNet\\StudyHub_.Net8\\StudyHub\\StudyHub.csproj",
       "projectName": "StudyHub",
-      "projectPath": "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub\\StudyHub.csproj",
-      "packagesPath": "C:\\Users\\nmau4\\.nuget\\packages\\",
-      "outputPath": "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub\\obj\\",
+      "projectPath": "D:\\HOC TAP\\Ky2Nam3\\ProjectDotNet\\StudyHub_.Net8\\StudyHub\\StudyHub.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\HOC TAP\\Ky2Nam3\\ProjectDotNet\\StudyHub_.Net8\\StudyHub\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nmau4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4611,11 +4589,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub.BLL\\StudyHub.BLL.csproj": {
-              "projectPath": "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub.BLL\\StudyHub.BLL.csproj"
-            },
-            "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub.Common\\StudyHub.Common.csproj": {
-              "projectPath": "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub.Common\\StudyHub.Common.csproj"
+            "D:\\HOC TAP\\Ky2Nam3\\ProjectDotNet\\StudyHub_.Net8\\StudyHub.BLL\\StudyHub.BLL.csproj": {
+              "projectPath": "D:\\HOC TAP\\Ky2Nam3\\ProjectDotNet\\StudyHub_.Net8\\StudyHub.BLL\\StudyHub.BLL.csproj"
             }
           }
         }

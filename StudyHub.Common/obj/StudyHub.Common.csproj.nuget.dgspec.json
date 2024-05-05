@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub.Common\\StudyHub.Common.csproj": {}
+    "D:\\HOC TAP\\Ky2Nam3\\ProjectDotNet\\StudyHub_.Net8\\StudyHub.Common\\StudyHub.Common.csproj": {}
   },
   "projects": {
-    "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub.Common\\StudyHub.Common.csproj": {
+    "D:\\HOC TAP\\Ky2Nam3\\ProjectDotNet\\StudyHub_.Net8\\StudyHub.Common\\StudyHub.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub.Common\\StudyHub.Common.csproj",
+        "projectUniqueName": "D:\\HOC TAP\\Ky2Nam3\\ProjectDotNet\\StudyHub_.Net8\\StudyHub.Common\\StudyHub.Common.csproj",
         "projectName": "StudyHub.Common",
-        "projectPath": "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub.Common\\StudyHub.Common.csproj",
-        "packagesPath": "C:\\Users\\nmau4\\.nuget\\packages\\",
-        "outputPath": "D:\\LEARNING SCHOOL\\Semester2_Year3\\StudyHub\\StudyHub.Common\\obj\\",
+        "projectPath": "D:\\HOC TAP\\Ky2Nam3\\ProjectDotNet\\StudyHub_.Net8\\StudyHub.Common\\StudyHub.Common.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\HOC TAP\\Ky2Nam3\\ProjectDotNet\\StudyHub_.Net8\\StudyHub.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nmau4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

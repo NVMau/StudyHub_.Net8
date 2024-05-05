@@ -16,7 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\StudyHub.Common\StudyHub.Common.csproj" />
     <ProjectReference Include="..\StudyHub.DAL\StudyHub.DAL.csproj" />
   </ItemGroup>
 

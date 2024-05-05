@@ -42,7 +42,7 @@ public partial class HeThongQuanLyHocTapContext : DbContext
     public virtual DbSet<UserOu> UserOus { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer("Data Source=BEOSBUJ\\BEOSBUJ;Initial Catalog=HeThongQuanLyHocTap;Integrated Security=True;TrustServerCertificate=True");
+        => optionsBuilder.UseSqlServer("Data Source=DESKTOP-FAHH4LC\\SERVEREBAN;Initial Catalog=HeThongQuanLyHocTap;Integrated Security=True;Encrypt=True;Trust Server Certificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

@@ -12,7 +12,6 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.4",
           "StudyHub.BLL": "1.0.0",
-          "StudyHub.Common": "1.0.0",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
@@ -911,27 +910,16 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4",
-          "StudyHub.Common": "1.0.0",
           "StudyHub.DAL": "1.0.0"
         },
         "runtime": {
           "StudyHub.BLL.dll": {}
         }
       },
-      "StudyHub.Common/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "8.0.4",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4"
-        },
-        "runtime": {
-          "StudyHub.Common.dll": {}
-        }
-      },
       "StudyHub.DAL/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.4",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4",
-          "StudyHub.Common": "1.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.4"
         },
         "runtime": {
           "StudyHub.DAL.dll": {}
@@ -1520,11 +1508,6 @@
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
     "StudyHub.BLL/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "StudyHub.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
