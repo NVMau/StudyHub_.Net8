@@ -12,38 +12,32 @@ namespace StudyHub.DAL
 
         HeThongQuanLyHocTapContext context = new HeThongQuanLyHocTapContext();
 
-        //Bước 1
-        //lấy list users ra trong đó context là nơi chứa các bảng thi đi tới UserOus để lấy list, 
-        public List<Object> GetAllUsers()
+
+        public List<UserOu> GetAllUsers()
         {
-            // do chỉ định các trường muốn lấy tránh lấy các dữ liệu thừa, sử dụng kiểu Object để chứng từng user và bọc trong list<> để trả về danh sách kiểu Object thay vì UserOus
             var users = context.UserOus
-                        .Select(i => new { i.IdUser, i.Username, i.FirstName, i.LastName, i.Email, i.Address, i.Avatar, i.Role })
-                        .ToList<Object>();
+                        .Select(i => new UserOu
+                        {
+                            IdUser = i.IdUser,
+                            Username = i.Username,
+                            FirstName = i.FirstName,
+                            LastName = i.LastName,
+                            Email = i.Email,
+                            Address = i.Address,
+                            Avatar = i.Avatar,
+                            Role = i.Role
+                        })
+                        .ToList<UserOu>();
             return users;
-            //đi đến phần BLL
-
-
         }
 
-        public object GetUserById(int userId)
+        public UserOu GetUserById(int userId)
         {
             var user = context.UserOus
-                .Where(u => u.IdUser == userId)
-                .Select(u => new
-                {
-                    u.IdUser,
-                    u.Username,
-                    u.FirstName,
-                    u.LastName,
-                    u.Email,
-                    u.Address,
-                    u.Avatar,
-                    u.Role
-                })
-                .FirstOrDefault();
-                return user;
+                .FirstOrDefault(u => u.IdUser == userId);
+            return user;
         }
+
 
         public void AddUser(UserOu user)
         {

@@ -1,4 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using StudyHub.BLL;
 using StudyHub.DAL.Models;
 //MVC
@@ -6,86 +12,141 @@ namespace AdminStudyHub.Controllers
 {
     public class UserController : Controller
     {
-        private readonly UserBLL userService;
+        private readonly UserBLL _context;
 
         public UserController()
         {
-            userService = new UserBLL();
+            _context = new UserBLL();
         }
 
-
+        // lấy danh sách user
         public IActionResult Index()
         {
-            //var user = ;
-            return View(userService.GetAllUsers());  
+            var users = _context.GetAllUsers();
+            return View(users);
         }
 
 
-        //public IActionResult Details(int userId)
-        //{
-        //    var user = _userBLL.GetUserById(userId);
-        //    if (user == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    return View(user);
-        //}
+        // GET: User/Details/5
+        public IActionResult Details(int id)
+        {
+            var user = _context.GetUserById(id);
+            if (user == null)
+            {
+                return NotFound(); // Trả về HTTP 404 Not Found nếu không tìm thấy user
+            }
+            return View(user);
+        }
 
-        //[HttpGet]
-        //public IActionResult Create()
-        //{
-        //    return View();
-        //}
+        //tạo user
+        //GET: User/Create
+        public IActionResult Create()
+        {
+            return View();
+        }
 
-        //[HttpPost]
-        //public IActionResult Create(UserOu user)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        _userBLL.AddUser(user);
-        //        return RedirectToAction(nameof(Index));
-        //    }
-        //    return View(user);
-        //}
+        // POST: User/Create tạo user gọi hàm này sau khi chọn tạo
 
-        //[HttpGet]
-        //public IActionResult Edit(int userId)
-        //{
-        //    var user = _userBLL.GetUserById(userId);
-        //    if (user == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    return View(user);
-        //}
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(UserOu user)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.AddUser(user);
+                return RedirectToAction(nameof(Index));
+            }
+            return View(user);
+        }
 
-        //[HttpPost]
-        //public IActionResult Edit(UserOu user)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        _userBLL.UpdateUser(user);
-        //        return RedirectToAction(nameof(Index));
-        //    }
-        //    return View(user);
-        //}
 
-        //[HttpGet]
-        //public IActionResult Delete(int userId)
-        //{
-        //    var user = _userBLL.GetUserById(userId);
-        //    if (user == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    return View(user);
-        //}
+        public IActionResult Edit(int id)
+        {
+            var user = _context.GetUserById(id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+            return View(user);
+        }
 
-        //[HttpPost, ActionName("Delete")]
-        //public IActionResult DeleteConfirmed(int userId)
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(int id, [Bind("IdUser,Username,Password,FirstName,LastName,Email,Address,Avatar,Role")] UserOu user)
+        {
+            if (id != user.IdUser)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    // Kiểm tra xem người dùng có thay đổi mật khẩu không
+                    var existingUser = _context.GetUserById(id);
+                    if (existingUser.Password != user.Password)
+                    {
+                        // Người dùng đã thay đổi mật khẩu, cập nhật mật khẩu
+                        existingUser.Password = user.Password;
+                    }
+
+                    _context.UpdateUser(existingUser);
+                }
+                catch (Exception)
+                {
+                    // Xử lý ngoại lệ (nếu có)
+                    throw;
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            return View(user);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeleteConfirmed(int id)
+        {
+            var user = _context.GetUserById(id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            try
+            {
+                _context.DeleteUser(id);
+            }
+            catch (Exception)
+            {
+                // Xử lý ngoại lệ (nếu có)
+                throw;
+            }
+
+            return RedirectToAction(nameof(Index));
+        }
+
+
+        // GET: User/Delete/5
+        public IActionResult Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var user = _context.GetUserById(id.Value);
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            return View(user);
+        }
+
+        //private bool UserOuExists(int id)
         //{
-        //    _userBLL.DeleteUser(userId);
-        //    return RedirectToAction(nameof(Index));
+        //    return _context.UserOus.Any(e => e.IdUser == id);
         //}
     }
 }
