@@ -14,14 +14,16 @@ namespace StudyHub.DAL
 
         //Bước 1
         //lấy list users ra trong đó context là nơi chứa các bảng thi đi tới UserOus để lấy list, 
-        public List<object> GetAllUsers()
+        public List<Object> GetAllUsers()
         {
             // do chỉ định các trường muốn lấy tránh lấy các dữ liệu thừa, sử dụng kiểu Object để chứng từng user và bọc trong list<> để trả về danh sách kiểu Object thay vì UserOus
             var users = context.UserOus
-                        .Select(i => new { i.IdUser, i.Username,  i.FirstName, i.LastName, i.Email, i.Role, i.Avatar })
-                        .ToList<object>();
+                        .Select(i => new { i.IdUser, i.Username, i.FirstName, i.LastName, i.Email, i.Address, i.Avatar, i.Role })
+                        .ToList<Object>();
             return users;
-            //đi đến phần BLL  
+            //đi đến phần BLL
+
+
         }
 
         public object GetUserById(int userId)
@@ -35,11 +37,12 @@ namespace StudyHub.DAL
                     u.FirstName,
                     u.LastName,
                     u.Email,
-                    u.Role,
-                    u.Avatar
+                    u.Address,
+                    u.Avatar,
+                    u.Role
                 })
                 .FirstOrDefault();
-            return user;
+                return user;
         }
 
         public void AddUser(UserOu user)

@@ -1,0 +1,25 @@
+﻿@model List<Object>
+
+@foreach (var item in Model)
+{
+    var dynamicItem = (dynamic)item;
+    var id = dynamicItem.IdUser;
+    var username = dynamicItem.Username;
+    var firstName = dynamicItem.FirstName;
+    var lastName = dynamicItem.LastName;
+    var email = dynamicItem.Email;
+    var address = dynamicItem.Address;
+    var avatar = dynamicItem.Avatar;
+    var role = dynamicItem.Role;
+
+    <div>
+        Id: @id <br />
+        Username: @username <br />
+        FirstName: @firstName <br />
+        LastName: @lastName <br />
+        Email: @email <br />
+        Address: @address <br />
+        Avatar: @avatar <br />
+        Role: @role <br />
+    </div>
+}

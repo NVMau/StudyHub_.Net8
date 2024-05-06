@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using StudyHub.BLL;
 using StudyHub.DAL.Models;
-
+//API
 namespace StudyHub.Controllers
 {
     [Route("api/[controller]")]
