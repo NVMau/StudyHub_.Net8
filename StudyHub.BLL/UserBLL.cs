@@ -38,5 +38,15 @@ namespace StudyHub.BLL
         {
             _userDAL.DeleteUser(userId);
         }
+
+        public UserOu GetUserByUsernameAndPassword(string username, string password)
+        {
+            return _userDAL.GetUserByUsernameAndPassword(username, password);
+        }
+
+        public UserOu GetUserByusername(string username)
+        { 
+            return _userDAL.GetUserByUsername(username);
+        }
     }
 }

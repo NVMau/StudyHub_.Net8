@@ -12,7 +12,7 @@ namespace StudyHub.DAL
 
         HeThongQuanLyHocTapContext context = new HeThongQuanLyHocTapContext();
 
-
+        // lấy list user
         public List<UserOu> GetAllUsers()
         {
             var users = context.UserOus
@@ -30,7 +30,7 @@ namespace StudyHub.DAL
                         .ToList<UserOu>();
             return users;
         }
-
+        //lấy user theo id
         public UserOu GetUserById(int userId)
         {
             var user = context.UserOus
@@ -38,13 +38,13 @@ namespace StudyHub.DAL
             return user;
         }
 
-
+        // tạo user
         public void AddUser(UserOu user)
         {
             context.UserOus.Add(user);
             context.SaveChanges();
         }
-
+        //cập nhật usr
         public void UpdateUser(UserOu user)
         {
             var existingUser = context.UserOus.Find(user.IdUser);
@@ -57,7 +57,7 @@ namespace StudyHub.DAL
                 context.SaveChanges();
             }
         }
-
+        // xóa user
         public void DeleteUser(int userId)
         {
             var userToDelete = context.UserOus.Find(userId);
@@ -67,5 +67,22 @@ namespace StudyHub.DAL
                 context.SaveChanges();
             }
         }
+
+        // lấy user theo username và passwork
+        public UserOu GetUserByUsernameAndPassword(string username, string password)
+        {
+            var user = context.UserOus
+                .FirstOrDefault(u => u.Username == username && u.Password == password);
+            return user;
+        }
+
+        // lấy user theo username
+        public UserOu GetUserByUsername(string username)
+        {
+            var user = context.UserOus
+                .FirstOrDefault(u => u.Username == username);
+            return user;
+        }
+
     }
 }
