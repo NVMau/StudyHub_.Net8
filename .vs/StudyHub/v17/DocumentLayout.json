@@ -1,34 +1,94 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\HOC TAP\\Ky2Nam3\\ProjectDotNet\\StudyHub_.Net8\\",
+  "WorkspaceRootPath": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|d:\\hoc tap\\ky2nam3\\projectdotnet\\studyhub_.net8\\studyhub\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.dal\\models\\hethongquanlyhoctapcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\models\\hethongquanlyhoctapcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.dal\\models\\userou.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\models\\userou.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\studyhub.dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|d:\\hoc tap\\ky2nam3\\projectdotnet\\studyhub_.net8\\studyhub\\modelrequest\\modelcustom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.dal\\baitapdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\baitapdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.bll\\baitapbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\baitapbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub\\controllers\\monhoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\controllers\\monhoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub\\controllers\\dapancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\controllers\\dapancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub\\controllers\\cauhoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\controllers\\cauhoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub\\controllers\\baitapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\controllers\\baitapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.bll\\monhocbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\monhocbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.bll\\dapanbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\dapanbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.bll\\cauhoibll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\cauhoibll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.dal\\monhocdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\monhocdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.dal\\dapandal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\dapandal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.dal\\cauhoidal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\cauhoidal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub\\baitapdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\baitapdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\studyhub\\modelrequest\\modelcustom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\modelrequest\\modelcustom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669AC0AD-69D1-471C-A325-CFEB69C07396}|AdminStudyHub\\AdminStudyHub.csproj|d:\\hoc tap\\ky2nam3\\projectdotnet\\studyhub_.net8\\adminstudyhub\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{669AC0AD-69D1-471C-A325-CFEB69C07396}|AdminStudyHub\\AdminStudyHub.csproj|D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\adminstudyhub\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{669AC0AD-69D1-471C-A325-CFEB69C07396}|AdminStudyHub\\AdminStudyHub.csproj|solutionrelative:adminstudyhub\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|d:\\hoc tap\\ky2nam3\\projectdotnet\\studyhub_.net8\\studyhub\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\studyhub\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|d:\\hoc tap\\ky2nam3\\projectdotnet\\studyhub_.net8\\studyhub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\studyhub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|d:\\hoc tap\\ky2nam3\\projectdotnet\\studyhub_.net8\\studyhub.bll\\userbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\studyhub.bll\\userbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\userbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|d:\\hoc tap\\ky2nam3\\projectdotnet\\studyhub_.net8\\studyhub.dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,95 +98,285 @@
       "DocumentGroups": [
         {
           "DockedWidth": 242,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\HOC TAP\\Ky2Nam3\\ProjectDotNet\\StudyHub_.Net8\\StudyHub\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "StudyHub\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\HOC TAP\\Ky2Nam3\\ProjectDotNet\\StudyHub_.Net8\\StudyHub\\Controllers\\UserController.cs",
-              "RelativeToolTip": "StudyHub\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "DocumentIndex": 1,
+              "Title": "UserOu.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\UserOu.cs",
+              "RelativeDocumentMoniker": "StudyHub.DAL\\Models\\UserOu.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\UserOu.cs",
+              "RelativeToolTip": "StudyHub.DAL\\Models\\UserOu.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAIA9wCcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T03:03:12.054Z",
+              "WhenOpened": "2024-05-07T22:57:50.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaiTapDAL.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\BaiTapDAL.cs",
+              "RelativeDocumentMoniker": "StudyHub.DAL\\BaiTapDAL.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\BaiTapDAL.cs",
+              "RelativeToolTip": "StudyHub.DAL\\BaiTapDAL.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAIwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T22:57:20.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HeThongQuanLyHocTapContext.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\HeThongQuanLyHocTapContext.cs",
+              "RelativeDocumentMoniker": "StudyHub.DAL\\Models\\HeThongQuanLyHocTapContext.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\HeThongQuanLyHocTapContext.cs",
+              "RelativeToolTip": "StudyHub.DAL\\Models\\HeThongQuanLyHocTapContext.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAkwDYAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T22:55:40.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MonHocController.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\Controllers\\MonHocController.cs",
+              "RelativeDocumentMoniker": "StudyHub\\Controllers\\MonHocController.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\Controllers\\MonHocController.cs",
+              "RelativeToolTip": "StudyHub\\Controllers\\MonHocController.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAwwE8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T22:55:25.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DapAnController.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\Controllers\\DapAnController.cs",
+              "RelativeDocumentMoniker": "StudyHub\\Controllers\\DapAnController.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\Controllers\\DapAnController.cs",
+              "RelativeToolTip": "StudyHub\\Controllers\\DapAnController.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAuwHMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T22:54:39.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CauHoiController.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\Controllers\\CauHoiController.cs",
+              "RelativeDocumentMoniker": "StudyHub\\Controllers\\CauHoiController.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\Controllers\\CauHoiController.cs",
+              "RelativeToolTip": "StudyHub\\Controllers\\CauHoiController.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAuwHAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T22:54:08.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaiTapController.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\Controllers\\BaiTapController.cs",
+              "RelativeDocumentMoniker": "StudyHub\\Controllers\\BaiTapController.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\Controllers\\BaiTapController.cs",
+              "RelativeToolTip": "StudyHub\\Controllers\\BaiTapController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T22:53:39.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MonHocBLL.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\MonHocBLL.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\MonHocBLL.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\MonHocBLL.cs",
+              "RelativeToolTip": "StudyHub.BLL\\MonHocBLL.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAuwDAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T22:53:04.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DapAnBLL.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\DapAnBLL.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\DapAnBLL.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\DapAnBLL.cs",
+              "RelativeToolTip": "StudyHub.BLL\\DapAnBLL.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAuwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T22:52:48.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CauHoiBLL.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\CauHoiBLL.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\CauHoiBLL.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\CauHoiBLL.cs",
+              "RelativeToolTip": "StudyHub.BLL\\CauHoiBLL.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAuwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T22:52:04.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaiTapBLL.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\BaiTapBLL.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\BaiTapBLL.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\BaiTapBLL.cs",
+              "RelativeToolTip": "StudyHub.BLL\\BaiTapBLL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T22:51:44.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MonHocDAL.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\MonHocDAL.cs",
+              "RelativeDocumentMoniker": "StudyHub.DAL\\MonHocDAL.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\MonHocDAL.cs",
+              "RelativeToolTip": "StudyHub.DAL\\MonHocDAL.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAuwD4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T22:50:53.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DapAnDAL.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\DapAnDAL.cs",
+              "RelativeDocumentMoniker": "StudyHub.DAL\\DapAnDAL.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\DapAnDAL.cs",
+              "RelativeToolTip": "StudyHub.DAL\\DapAnDAL.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAIwBIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T22:50:32.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CauHoiDAL.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\CauHoiDAL.cs",
+              "RelativeDocumentMoniker": "StudyHub.DAL\\CauHoiDAL.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\CauHoiDAL.cs",
+              "RelativeToolTip": "StudyHub.DAL\\CauHoiDAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T22:50:01.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BaiTapDAL.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\BaiTapDAL.cs",
+              "RelativeDocumentMoniker": "StudyHub\\BaiTapDAL.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\BaiTapDAL.cs",
+              "RelativeToolTip": "StudyHub\\BaiTapDAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T22:49:03.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "StudyHub\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\Controllers\\UserController.cs",
+              "RelativeToolTip": "StudyHub\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T03:03:12.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LoginController.cs",
-              "DocumentMoniker": "D:\\HOC TAP\\Ky2Nam3\\ProjectDotNet\\StudyHub_.Net8\\StudyHub\\Controllers\\LoginController.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "StudyHub\\Controllers\\LoginController.cs",
-              "ToolTip": "D:\\HOC TAP\\Ky2Nam3\\ProjectDotNet\\StudyHub_.Net8\\StudyHub\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\Controllers\\LoginController.cs",
               "RelativeToolTip": "StudyHub\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAcwEIAAABYAAAA",
+              "ViewState": "AQIAAEEAAAAAAAAAAAApwE8AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T02:11:15.351Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 17,
               "Title": "modelcustom.cs",
-              "DocumentMoniker": "D:\\HOC TAP\\Ky2Nam3\\ProjectDotNet\\StudyHub_.Net8\\StudyHub\\modelRequest\\modelcustom.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\modelRequest\\modelcustom.cs",
               "RelativeDocumentMoniker": "StudyHub\\modelRequest\\modelcustom.cs",
-              "ToolTip": "D:\\HOC TAP\\Ky2Nam3\\ProjectDotNet\\StudyHub_.Net8\\StudyHub\\modelRequest\\modelcustom.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\modelRequest\\modelcustom.cs",
               "RelativeToolTip": "StudyHub\\modelRequest\\modelcustom.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T03:04:13.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T03:04:13.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\AdminStudyHub\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "AdminStudyHub\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\AdminStudyHub\\Controllers\\UserController.cs",
+              "RelativeToolTip": "AdminStudyHub\\Controllers\\UserController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwBUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T02:38:34.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\Program.cs",
+              "RelativeDocumentMoniker": "StudyHub\\Program.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\Program.cs",
+              "RelativeToolTip": "StudyHub\\Program.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T02:34:31.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserBLL.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\UserBLL.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\UserBLL.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\UserBLL.cs",
+              "RelativeToolTip": "StudyHub.BLL\\UserBLL.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAA7wDEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T02:26:55.778Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\HOC TAP\\Ky2Nam3\\ProjectDotNet\\StudyHub_.Net8\\AdminStudyHub\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "AdminStudyHub\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\HOC TAP\\Ky2Nam3\\ProjectDotNet\\StudyHub_.Net8\\AdminStudyHub\\Controllers\\UserController.cs",
-              "RelativeToolTip": "AdminStudyHub\\Controllers\\UserController.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAgwBUAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T02:38:34.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\HOC TAP\\Ky2Nam3\\ProjectDotNet\\StudyHub_.Net8\\StudyHub\\Program.cs",
-              "RelativeDocumentMoniker": "StudyHub\\Program.cs",
-              "ToolTip": "D:\\HOC TAP\\Ky2Nam3\\ProjectDotNet\\StudyHub_.Net8\\StudyHub\\Program.cs",
-              "RelativeToolTip": "StudyHub\\Program.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAD0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T02:34:31.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserBLL.cs",
-              "DocumentMoniker": "D:\\HOC TAP\\Ky2Nam3\\ProjectDotNet\\StudyHub_.Net8\\StudyHub.BLL\\UserBLL.cs",
-              "RelativeDocumentMoniker": "StudyHub.BLL\\UserBLL.cs",
-              "ToolTip": "D:\\HOC TAP\\Ky2Nam3\\ProjectDotNet\\StudyHub_.Net8\\StudyHub.BLL\\UserBLL.cs",
-              "RelativeToolTip": "StudyHub.BLL\\UserBLL.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAA7wDEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T02:26:55.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "UserDAL.cs",
-              "DocumentMoniker": "D:\\HOC TAP\\Ky2Nam3\\ProjectDotNet\\StudyHub_.Net8\\StudyHub.DAL\\UserDAL.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\UserDAL.cs",
               "RelativeDocumentMoniker": "StudyHub.DAL\\UserDAL.cs",
-              "ToolTip": "D:\\HOC TAP\\Ky2Nam3\\ProjectDotNet\\StudyHub_.Net8\\StudyHub.DAL\\UserDAL.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\UserDAL.cs",
               "RelativeToolTip": "StudyHub.DAL\\UserDAL.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAA7wE8AAAAtAAAA",
+              "ViewState": "AQIAAD0AAAAAAAAAAAApwEsAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T02:25:27.263Z",
               "EditorCaption": ""
