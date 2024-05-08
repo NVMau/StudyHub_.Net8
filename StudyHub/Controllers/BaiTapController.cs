@@ -92,5 +92,18 @@ namespace StudyHub.Controllers
             }
             return Ok(baiTap);
         }
+
+
+
+        [HttpGet("{idBaiTap}/cauhoi")]
+        public IActionResult GetCauHoiByBaiTap(int idBaiTap)
+        {
+            var cauHois = _baiTapBLL.GetCauHoiByBaiTap(idBaiTap);
+            if (cauHois == null)
+            {
+                return NotFound($"Không có câu hỏi nào cho bài tập với ID {idBaiTap}.");
+            }
+            return Ok(cauHois);
+        }
     }
 }

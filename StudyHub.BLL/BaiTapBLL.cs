@@ -36,5 +36,11 @@ namespace StudyHub.BLL
         {
             return _baiTapDAL.GetBaiTapById(id);
         }
+
+        public BaiTap? GetCauHoiByBaiTap(int id)
+        {
+            return _baiTapDAL.GetBaiTapById(id);
+        }
+
     }
 }

@@ -1,4 +1,5 @@
-﻿using StudyHub.DAL.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using StudyHub.DAL.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -43,6 +44,15 @@ namespace StudyHub.DAL
         public BaiTap? GetBaiTapById(int id)
         {
             return _context.BaiTaps.FirstOrDefault(b => b.IdBaiTap == id);
+        }
+
+
+        public IEnumerable<CauHoi> GetCauHoiByBaiTap(int idBaiTap)
+        {
+            return _context.ListTracNghiems
+            .Where(ln => ln.IdBaiTap == idBaiTap)
+            .Select(ln => ln.IdCauHoiNavigation)
+            .ToList();
         }
     }
 }
