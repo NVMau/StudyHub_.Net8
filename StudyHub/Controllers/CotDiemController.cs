@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using StudyHub.BLL;
+using StudyHub.DAL;
 using StudyHub.DAL.Models;
+using System.Drawing;
 
 namespace StudyHub.Controllers
 {
@@ -13,6 +15,14 @@ namespace StudyHub.Controllers
         public double Diem { get; set; } // Thêm thuộc tính Diem
     }
 
+
+    public class TraloiSinhVienDTO
+    {
+        public int IdCauHoi { get; set; }
+        public int IdDapan  { get; set; }
+    }
+
+
     [Route("api/[controller]")]
     [ApiController]
     public class CotDiemController : ControllerBase
@@ -20,6 +30,8 @@ namespace StudyHub.Controllers
         private readonly CotDiemBLL _cotDiemBLL;
         private readonly BaiTapBLL _baiTapBLL;
         private readonly SinhVienLamBaiBLL _sinhVienLamBaiBLL;
+        private readonly CauHoiBLL _cauHoiBLL;
+
 
 
         public CotDiemController()
@@ -27,6 +39,55 @@ namespace StudyHub.Controllers
             _cotDiemBLL = new CotDiemBLL();
             _baiTapBLL = new BaiTapBLL();
             _sinhVienLamBaiBLL = new SinhVienLamBaiBLL();
+            _cauHoiBLL = new CauHoiBLL();
+        }
+
+
+
+
+        [HttpPost("sinhvien/{idSinhVien}/tinhDiem")]
+        public IActionResult TinhDiemBaiLam(int idSinhVien, [FromBody] List<TraloiSinhVienDTO> traloiSinhVien)
+        {
+            var diem = 0.0;
+            foreach (var cauhoi  in traloiSinhVien)
+            {
+                var cauHoi = _cauHoiBLL.GetCauHoiById(cauhoi.IdCauHoi);
+                var dapandung = _cauHoiBLL.GetDapAnDungById(cauHoi.IdCauHoi);
+
+                if (cauHoi != null && dapandung != null)
+                {
+
+                    if (dapandung.IdDapAn == cauhoi.IdDapan)
+                    {
+                        diem += 10; // Giả sử mỗi câu trả lời đúng được 1 điểm
+                    }
+                }
+
+
+
+
+            }
+            var tongDiem = diem/ traloiSinhVien.Count; // Tính toán điểm tổng dựa trên số câu trả lời đúng
+            var cauHoiCheck = traloiSinhVien.FirstOrDefault();
+            var cotDiem = new CotDiem
+            {
+                TenCotDiem = _cauHoiBLL.GetTenBaiTapByCauHoiId(cauHoiCheck.IdCauHoi),
+                Diem = tongDiem
+            };
+
+
+            _cotDiemBLL.AddCotDiem(cotDiem);
+            var sinhVienLamBai = new SinhVienLamBai
+            {
+                IdSinhVien =idSinhVien,
+                IdBaiTap = _cauHoiBLL.GetIdBaiTapByCauHoiId(cauHoiCheck.IdCauHoi),
+                IdCotDiem = cotDiem.IdCotDiem,
+                NoiDungBaiLam = "Trac nghiem"
+            };
+
+            var addedSinhVienLamBai = _cotDiemBLL.AddSinhVienLamBai(sinhVienLamBai);
+
+            return Ok(new { Diem = tongDiem });
         }
 
 

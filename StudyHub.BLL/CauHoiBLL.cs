@@ -29,6 +29,12 @@ namespace StudyHub.BLL
             return _cauHoiDAL.GetCauHoiById(IdCauHoi);
         }
 
+        public DapAn? GetDapAnDungById(int IdCauHoi)
+        {
+            return _cauHoiDAL.GetDapAnDungById(IdCauHoi);
+
+        }
+
 
         public void UpdateCauHoi(CauHoi cauHoi)
         {
@@ -40,6 +46,16 @@ namespace StudyHub.BLL
         public void DeleteCauHoi(int idCauHoi)
         {
             _cauHoiDAL.DeleteCauHoi(idCauHoi);
+        }
+
+        public string? GetTenBaiTapByCauHoiId(int cauHoiId)
+        {
+            return _cauHoiDAL.GetTenBaiTapByCauHoiId(cauHoiId);
+        }
+
+        public int GetIdBaiTapByCauHoiId(int cauHoiId)
+        {
+            return _cauHoiDAL.GetIdBaiTapByCauHoiId(cauHoiId);
         }
 
     }

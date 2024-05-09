@@ -43,6 +43,16 @@ namespace StudyHub.DAL
                 .FirstOrDefault(ch => ch.IdCauHoi == cauHoiId);
             return cauHoi;
         }
+        public DapAn? GetDapAnDungById(int cauHoiId)
+        {
+            // Tìm câu hỏi bằng Id
+            var dapAnDung = context.DapAns.FirstOrDefault(da => da.IdCauHoi == cauHoiId && da.KetQua == true);
+            // Trả về đáp án đúng (nếu có)
+            return dapAnDung;
+
+        }
+
+
 
 
 
@@ -102,6 +112,35 @@ namespace StudyHub.DAL
             context.SaveChanges();
         }
 
+
+        public string? GetTenBaiTapByCauHoiId(int cauHoiId)
+        {
+
+            var liscauhoi = context.ListTracNghiems.FirstOrDefault(ls => ls.IdCauHoi == cauHoiId);
+            var baitap = context.BaiTaps.FirstOrDefault(bt => bt.IdBaiTap == liscauhoi.IdBaiTap);
+            if (baitap != null && liscauhoi != null)
+            {
+                return baitap.TenBaiTap;
+            }
+
+            return null; // Trả về null nếu không tìm thấy hoặc không có bài tập liên quan
+        }
+
+        public int GetIdBaiTapByCauHoiId(int cauHoiId)
+        {
+
+            var liscauhoi = context.ListTracNghiems.FirstOrDefault(ls => ls.IdCauHoi == cauHoiId);
+            var baitap = context.BaiTaps.FirstOrDefault(bt => bt.IdBaiTap == liscauhoi.IdBaiTap);
+            if (baitap != null && liscauhoi != null)
+            {
+                return baitap.IdBaiTap;
+            }
+
+            return -1; // Trả về null nếu không tìm thấy hoặc không có bài tập liên quan
+        }
+
+
+        
 
 
     }

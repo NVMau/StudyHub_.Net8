@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using StudyHub.BLL;
+using StudyHub.DAL;
 using StudyHub.DAL.Models;
 
 namespace StudyHub.Controllers
@@ -39,6 +40,23 @@ namespace StudyHub.Controllers
             }
             return Ok(cauHoi);
         }
+
+        [HttpGet("laydapandung/{id}")]
+        public IActionResult GetDapAnDungById(int id)
+        {
+            var dapandung = _cauHoiBLL.GetDapAnDungById(id);
+            if (dapandung == null)
+            {
+                return NotFound();
+            }
+            return Ok(dapandung);
+        }
+
+
+
+
+
+
 
 
         [HttpPost]

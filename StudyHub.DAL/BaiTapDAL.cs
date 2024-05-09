@@ -47,6 +47,8 @@ namespace StudyHub.DAL
         }
 
 
+
+
         public IEnumerable<CauHoi> GetCauHoiByBaiTap(int idBaiTap)
         {
             return _context.ListTracNghiems
