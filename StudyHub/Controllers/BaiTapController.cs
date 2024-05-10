@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using StudyHub.BLL;
 using StudyHub.DAL;
 using StudyHub.DAL.Models;
+using static StudyHub.Controllers.ListTracNghiemController;
 
 namespace StudyHub.Controllers
 {
@@ -17,7 +18,11 @@ namespace StudyHub.Controllers
 
         public int ThoiGian { get; set; }
     }
-
+    public class BaiTapWithCauHoiDto
+    {
+        public BaiTapDto BaiTapDto { get; set; }
+        public List<int> IdsCauHoi { get; set; }
+    }
 
 
     [Route("api/[controller]")]
@@ -25,10 +30,12 @@ namespace StudyHub.Controllers
     public class BaiTapController : ControllerBase
     {
         private readonly BaiTapBLL _baiTapBLL;
+        private readonly ListTracNghiemBLL _tracNghiemBLL;
 
         public BaiTapController()
         {
             _baiTapBLL = new BaiTapBLL();
+            _tracNghiemBLL = new ListTracNghiemBLL();
         }
 
         // Lấy danh sách bài tập theo khóa học
@@ -45,9 +52,10 @@ namespace StudyHub.Controllers
 
         // Thêm bài tập mới
         [HttpPost]
-        public IActionResult AddBaiTap([FromBody] BaiTapDto baiTapDto)
+        public IActionResult AddBaiTap([FromBody] BaiTapWithCauHoiDto baiTapWithCauHoiDto)
         {
 
+            var baiTapDto = baiTapWithCauHoiDto.BaiTapDto;
             var baiTap = new BaiTap
             {
                 IdLoaiBaiTap = baiTapDto.IdLoaiBaiTap,
@@ -59,8 +67,20 @@ namespace StudyHub.Controllers
             {
                 return BadRequest(ModelState);
             }
-
             var addedBaiTap = _baiTapBLL.AddBaiTap(baiTap);
+
+
+            foreach(var id in baiTapWithCauHoiDto.IdsCauHoi)
+            {
+                var listracnghiem = new ListTracNghiem
+                {
+                    IdBaiTap = baiTap.IdBaiTap,
+                    IdCauHoi = id,
+                };
+
+                _tracNghiemBLL.AddListTracNghiem(listracnghiem);
+            }
+            
             return CreatedAtAction(nameof(GetBaiTapById), new { id = addedBaiTap.IdBaiTap }, addedBaiTap);
         }
 

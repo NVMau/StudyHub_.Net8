@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StudyHub.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3d236aed16e435ed798c68c95e6f32a06c77d6a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98a2cf72c3faca4d2fc6fd74ce1e3ca148dd57f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("StudyHub.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StudyHub.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

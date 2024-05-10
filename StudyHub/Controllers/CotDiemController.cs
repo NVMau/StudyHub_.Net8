@@ -16,10 +16,18 @@ namespace StudyHub.Controllers
     }
 
 
+
     public class TraloiSinhVienDTO
     {
         public int IdCauHoi { get; set; }
-        public int IdDapan  { get; set; }
+        public int? IdDapan  { get; set; }
+    }
+
+    public class SinhVienKhoaHocforhgetCDsDto
+    {
+        public int IdSinhVien { get; set; }
+
+        public int IdKhoaHoc { get; set; }
     }
 
 
@@ -90,6 +98,34 @@ namespace StudyHub.Controllers
             return Ok(new { Diem = tongDiem });
         }
 
+
+
+        // API để lưu điểm sinh viên
+        [HttpPost("GetCotDiems")]
+        public IActionResult GetDSDiembySinhVienKhoaHoc([FromBody] SinhVienKhoaHocforhgetCDsDto sinhVienKhoaHocforhgetCDsDto)
+        {
+            var sinhVienLamBais = _cotDiemBLL.GetCotDiemsByKhoaHocAndUser(sinhVienKhoaHocforhgetCDsDto.IdKhoaHoc, sinhVienKhoaHocforhgetCDsDto.IdSinhVien);
+
+            if (sinhVienLamBais == null || !sinhVienLamBais.Any())
+            {
+                return NotFound("Không tìm thấy cột điểm nào cho sinh viên trong khóa học này.");
+            }
+
+            var result = new List<object>();
+            foreach (var sinhVienLamBai in sinhVienLamBais)
+            {
+                // Thu thập thông tin cần thiết từ sinhVienLamBai để gửi về client
+                var cotDiemInfo = new
+                {
+                    TenCotDiem = _baiTapBLL.GetBaiTapById(sinhVienLamBai.IdBaiTap).TenBaiTap,
+
+                    Diem = _cotDiemBLL.GetCotDiemById(sinhVienLamBai.IdCotDiem).Diem
+                    //Thêm các thông tin khác nếu cần
+                };
+                result.Add(cotDiemInfo);
+            }
+            return Ok(result);
+        }
 
 
 

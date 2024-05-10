@@ -53,6 +53,14 @@ namespace StudyHub.Controllers
         }
 
 
+        [HttpGet("getdscauhoibyidmon/{id}")]
+        public IActionResult GetCauhoisByIdMon(int id)
+        {
+            var cauhois = _cauHoiBLL.GetCauhoisByIdMon(id);
+            return Ok(cauhois);
+        }
+
+
 
 
 

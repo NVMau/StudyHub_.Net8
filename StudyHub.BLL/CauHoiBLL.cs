@@ -24,6 +24,13 @@ namespace StudyHub.BLL
         }
 
 
+        public IEnumerable<CauHoi> GetCauhoisByIdMon(int IdMon)
+        {
+            return _cauHoiDAL.GetCauhoisByIdMon(IdMon);
+        }
+
+
+
         public CauHoi? GetCauHoiById(int IdCauHoi)
         {
             return _cauHoiDAL.GetCauHoiById(IdCauHoi);

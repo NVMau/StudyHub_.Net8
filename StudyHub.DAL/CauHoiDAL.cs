@@ -35,6 +35,18 @@ namespace StudyHub.DAL
         //}
 
 
+        public IEnumerable<CauHoi> GetCauhoisByIdMon(int IdMon)
+        {
+            // Sử dụng Include để tải trước danh sách các đáp án
+            var cauHois = context.CauHois.Where(b => b.IdMonHoc == IdMon).ToList();
+
+
+
+            return cauHois;
+        }
+
+
+
         public CauHoi? GetCauHoiById(int cauHoiId)
         {
             // Sử dụng Include để tải trước danh sách các đáp án
