@@ -22,6 +22,15 @@ namespace StudyHub.BLL
         {
             return _cotDiemDAL.GetCotDiemsByKhoaHocAndUser(idKhoaHoc, idUser);
         }
+        public IEnumerable<UserOu> GetSinhVienByKhoaHoc(int idKhoaHoc)
+        {
+            return _cotDiemDAL.GetSinhVienByKhoaHoc(idKhoaHoc);
+        }
+
+
+
+
+
 
         public CotDiem? GetCotDiemById(int idCotDiem)
         {

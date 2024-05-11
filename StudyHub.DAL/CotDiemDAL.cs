@@ -1,6 +1,7 @@
 ﻿using StudyHub.DAL.Models;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.WebSockets;
 
 namespace StudyHub.DAL
 {
@@ -25,6 +26,19 @@ namespace StudyHub.DAL
             return _context.SinhVienLamBais
                 .Where(slb => slb.IdSinhVien == idUser && slb.IdBaiTapNavigation.IdKhoaHoc == idKhoaHoc)
                 .ToList();
+        }
+
+
+
+
+        public IEnumerable<UserOu> GetSinhVienByKhoaHoc(int idKhoaHoc)
+        {
+            var sinhVienList = _context.SinhVienKhoaHocs
+                .Where(svkh => svkh.IdKhoaHoc == idKhoaHoc)
+                .Select(svkh => svkh.IdSinhVienNavigation)
+                .ToList();
+
+            return sinhVienList;
         }
 
         public CotDiem? GetCotDiemById(int idCotDiem)

@@ -3,68 +3,84 @@
   "WorkspaceRootPath": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub\\controllers\\baitapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\controllers\\baitapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub\\controllers\\listtracnghiemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\controllers\\listtracnghiemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub\\controllers\\cauhoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\controllers\\cauhoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.bll\\listtracnghiembll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\listtracnghiembll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub\\controllers\\cotdiemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\controllers\\cotdiemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.dal\\khoahocdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\khoahocdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.bll\\khoahocbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\khoahocbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub\\controllers\\khoahoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\controllers\\khoahoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\studyhub.bll\\cotdiembll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\cotdiembll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.dal\\monhocdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\monhocdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\studyhub.dal\\cotdiemdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\cotdiemdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.dal\\models\\userou.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\models\\userou.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.dal\\dapandal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\dapandal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.bll\\dapanbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\dapanbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.dal\\models\\khoahoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\models\\khoahoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.dal\\models\\hocky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\models\\hocky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.bll\\cauhoibll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\cauhoibll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.dal\\cauhoidal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\cauhoidal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.dal\\models\\monhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\models\\monhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.dal\\baitapdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\baitapdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.bll\\monhocbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\monhocbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.bll\\baitapbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\baitapbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.bll\\cotdiembll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\cotdiembll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.dal\\models\\sinhvienkhoahoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\models\\sinhvienkhoahoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.bll\\sinhvienkhoahocbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\sinhvienkhoahocbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.dal\\models\\loaicauhoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\models\\loaicauhoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.dal\\models\\cotdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\studyhub.dal\\models\\cotdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\models\\cotdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.dal\\models\\listtracnghiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\models\\listtracnghiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\studyhub.dal\\models\\sinhvienkhoahoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\models\\sinhvienkhoahoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|d:\\learning school\\semester2_year3\\lt_co_so_dl\\studyhub_.net8\\studyhub.dal\\models\\hethongquanlyhoctapcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\models\\hethongquanlyhoctapcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\studyhub.dal\\models\\sinhvienlambai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E4B5F5-99B6-49FF-B346-F0E365823DA0}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\models\\sinhvienlambai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\studyhub\\controllers\\listtracnghiemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFBDDB9E-F54C-4206-B26B-0A561F454178}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\controllers\\listtracnghiemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\studyhub.bll\\listtracnghiembll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99D23BA4-732A-436D-BF4B-81DD134F6AD0}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\listtracnghiembll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,214 +90,262 @@
       "DocumentGroups": [
         {
           "DockedWidth": 242,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ListTracNghiemBLL.cs",
-              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\ListTracNghiemBLL.cs",
-              "RelativeDocumentMoniker": "StudyHub.BLL\\ListTracNghiemBLL.cs",
-              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\ListTracNghiemBLL.cs",
-              "RelativeToolTip": "StudyHub.BLL\\ListTracNghiemBLL.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAswBUAAAAwAAAA",
+              "Title": "KhoaHocController.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\Controllers\\KhoaHocController.cs",
+              "RelativeDocumentMoniker": "StudyHub\\Controllers\\KhoaHocController.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\Controllers\\KhoaHocController.cs",
+              "RelativeToolTip": "StudyHub\\Controllers\\KhoaHocController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T09:25:12.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BaiTapController.cs",
-              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\Controllers\\BaiTapController.cs",
-              "RelativeDocumentMoniker": "StudyHub\\Controllers\\BaiTapController.cs",
-              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\Controllers\\BaiTapController.cs",
-              "RelativeToolTip": "StudyHub\\Controllers\\BaiTapController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAuwCUAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T09:11:05.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BaiTapDAL.cs",
-              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\BaiTapDAL.cs",
-              "RelativeDocumentMoniker": "StudyHub.DAL\\BaiTapDAL.cs",
-              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\BaiTapDAL.cs",
-              "RelativeToolTip": "StudyHub.DAL\\BaiTapDAL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T08:35:02.25Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BaiTapBLL.cs",
-              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\BaiTapBLL.cs",
-              "RelativeDocumentMoniker": "StudyHub.BLL\\BaiTapBLL.cs",
-              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\BaiTapBLL.cs",
-              "RelativeToolTip": "StudyHub.BLL\\BaiTapBLL.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T08:34:45.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CotDiemBLL.cs",
-              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\CotDiemBLL.cs",
-              "RelativeDocumentMoniker": "StudyHub.BLL\\CotDiemBLL.cs",
-              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\CotDiemBLL.cs",
-              "RelativeToolTip": "StudyHub.BLL\\CotDiemBLL.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAADwvxsAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T08:20:52.006Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SinhVienKhoaHoc.cs",
-              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\SinhVienKhoaHoc.cs",
-              "RelativeDocumentMoniker": "StudyHub.DAL\\Models\\SinhVienKhoaHoc.cs",
-              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\SinhVienKhoaHoc.cs",
-              "RelativeToolTip": "StudyHub.DAL\\Models\\SinhVienKhoaHoc.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T08:15:41.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SinhVienKhoaHocBLL.cs",
-              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\SinhVienKhoaHocBLL.cs",
-              "RelativeDocumentMoniker": "StudyHub.BLL\\SinhVienKhoaHocBLL.cs",
-              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\SinhVienKhoaHocBLL.cs",
-              "RelativeToolTip": "StudyHub.BLL\\SinhVienKhoaHocBLL.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T08:15:33.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CauHoiController.cs",
-              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\Controllers\\CauHoiController.cs",
-              "RelativeDocumentMoniker": "StudyHub\\Controllers\\CauHoiController.cs",
-              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\Controllers\\CauHoiController.cs",
-              "RelativeToolTip": "StudyHub\\Controllers\\CauHoiController.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAmwD0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T07:47:55.708Z",
+              "WhenOpened": "2024-05-11T06:43:33.37Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CauHoiBLL.cs",
-              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\CauHoiBLL.cs",
-              "RelativeDocumentMoniker": "StudyHub.BLL\\CauHoiBLL.cs",
-              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\CauHoiBLL.cs",
-              "RelativeToolTip": "StudyHub.BLL\\CauHoiBLL.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAxwB4AAAAAAAAA",
+              "Title": "MonHocDAL.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\MonHocDAL.cs",
+              "RelativeDocumentMoniker": "StudyHub.DAL\\MonHocDAL.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\MonHocDAL.cs",
+              "RelativeToolTip": "StudyHub.DAL\\MonHocDAL.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T07:47:50.835Z",
+              "WhenOpened": "2024-05-11T06:42:47.161Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CotDiemController.cs",
-              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\Controllers\\CotDiemController.cs",
-              "RelativeDocumentMoniker": "StudyHub\\Controllers\\CotDiemController.cs",
-              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\Controllers\\CotDiemController.cs",
-              "RelativeToolTip": "StudyHub\\Controllers\\CotDiemController.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAYwFwAAAAtAAAA",
+              "DocumentIndex": 8,
+              "Title": "DapAnDAL.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\DapAnDAL.cs",
+              "RelativeDocumentMoniker": "StudyHub.DAL\\DapAnDAL.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\DapAnDAL.cs",
+              "RelativeToolTip": "StudyHub.DAL\\DapAnDAL.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T07:39:15.66Z",
+              "WhenOpened": "2024-05-11T06:42:19.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CotDiem.cs",
-              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\CotDiem.cs",
-              "RelativeDocumentMoniker": "StudyHub.DAL\\Models\\CotDiem.cs",
-              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\CotDiem.cs",
-              "RelativeToolTip": "StudyHub.DAL\\Models\\CotDiem.cs",
+              "DocumentIndex": 9,
+              "Title": "DapAnBLL.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\DapAnBLL.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\DapAnBLL.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\DapAnBLL.cs",
+              "RelativeToolTip": "StudyHub.BLL\\DapAnBLL.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T07:39:12.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "HeThongQuanLyHocTapContext.cs",
-              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\HeThongQuanLyHocTapContext.cs",
-              "RelativeDocumentMoniker": "StudyHub.DAL\\Models\\HeThongQuanLyHocTapContext.cs",
-              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\HeThongQuanLyHocTapContext.cs",
-              "RelativeToolTip": "StudyHub.DAL\\Models\\HeThongQuanLyHocTapContext.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T07:38:04.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CauHoiDAL.cs",
-              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\CauHoiDAL.cs",
-              "RelativeDocumentMoniker": "StudyHub.DAL\\CauHoiDAL.cs",
-              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\CauHoiDAL.cs",
-              "RelativeToolTip": "StudyHub.DAL\\CauHoiDAL.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAlwCkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T07:36:31.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ListTracNghiem.cs",
-              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\ListTracNghiem.cs",
-              "RelativeDocumentMoniker": "StudyHub.DAL\\Models\\ListTracNghiem.cs",
-              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\ListTracNghiem.cs",
-              "RelativeToolTip": "StudyHub.DAL\\Models\\ListTracNghiem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T07:36:04.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LoaiCauHoi.cs",
-              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\LoaiCauHoi.cs",
-              "RelativeDocumentMoniker": "StudyHub.DAL\\Models\\LoaiCauHoi.cs",
-              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\LoaiCauHoi.cs",
-              "RelativeToolTip": "StudyHub.DAL\\Models\\LoaiCauHoi.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T07:36:00.387Z",
+              "WhenOpened": "2024-05-11T06:42:12.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "KhoaHocDAL.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\KhoaHocDAL.cs",
+              "RelativeDocumentMoniker": "StudyHub.DAL\\KhoaHocDAL.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\KhoaHocDAL.cs",
+              "RelativeToolTip": "StudyHub.DAL\\KhoaHocDAL.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAqwCYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T06:41:25.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HocKy.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\HocKy.cs",
+              "RelativeDocumentMoniker": "StudyHub.DAL\\Models\\HocKy.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\HocKy.cs",
+              "RelativeToolTip": "StudyHub.DAL\\Models\\HocKy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T06:34:06.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CauHoiBLL.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\CauHoiBLL.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\CauHoiBLL.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\CauHoiBLL.cs",
+              "RelativeToolTip": "StudyHub.BLL\\CauHoiBLL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T06:33:50.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "KhoaHoc.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\KhoaHoc.cs",
+              "RelativeDocumentMoniker": "StudyHub.DAL\\Models\\KhoaHoc.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\KhoaHoc.cs",
+              "RelativeToolTip": "StudyHub.DAL\\Models\\KhoaHoc.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwA8AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T06:33:36.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MonHoc.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\MonHoc.cs",
+              "RelativeDocumentMoniker": "StudyHub.DAL\\Models\\MonHoc.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\MonHoc.cs",
+              "RelativeToolTip": "StudyHub.DAL\\Models\\MonHoc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T06:33:33.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MonHocBLL.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\MonHocBLL.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\MonHocBLL.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\MonHocBLL.cs",
+              "RelativeToolTip": "StudyHub.BLL\\MonHocBLL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T06:33:26.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KhoaHocBLL.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\KhoaHocBLL.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\KhoaHocBLL.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\KhoaHocBLL.cs",
+              "RelativeToolTip": "StudyHub.BLL\\KhoaHocBLL.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAUwCEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T06:30:13.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserOu.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\UserOu.cs",
+              "RelativeDocumentMoniker": "StudyHub.DAL\\Models\\UserOu.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\UserOu.cs",
+              "RelativeToolTip": "StudyHub.DAL\\Models\\UserOu.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T06:30:05.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SinhVienKhoaHoc.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\SinhVienKhoaHoc.cs",
+              "RelativeDocumentMoniker": "StudyHub.DAL\\Models\\SinhVienKhoaHoc.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\SinhVienKhoaHoc.cs",
+              "RelativeToolTip": "StudyHub.DAL\\Models\\SinhVienKhoaHoc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T06:18:57.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SinhVienLamBai.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\SinhVienLamBai.cs",
+              "RelativeDocumentMoniker": "StudyHub.DAL\\Models\\SinhVienLamBai.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\SinhVienLamBai.cs",
+              "RelativeToolTip": "StudyHub.DAL\\Models\\SinhVienLamBai.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T06:18:50.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CotDiem.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\CotDiem.cs",
+              "RelativeDocumentMoniker": "StudyHub.DAL\\Models\\CotDiem.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\Models\\CotDiem.cs",
+              "RelativeToolTip": "StudyHub.DAL\\Models\\CotDiem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T06:18:43.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CotDiemBLL.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\CotDiemBLL.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\CotDiemBLL.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\CotDiemBLL.cs",
+              "RelativeToolTip": "StudyHub.BLL\\CotDiemBLL.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAIwC0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T06:04:36.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CotDiemController.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\Controllers\\CotDiemController.cs",
+              "RelativeDocumentMoniker": "StudyHub\\Controllers\\CotDiemController.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\Controllers\\CotDiemController.cs",
+              "RelativeToolTip": "StudyHub\\Controllers\\CotDiemController.cs",
+              "ViewState": "AQIAAPoAAAAAAAAAAAAAAA8BAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T06:04:21.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "ListTracNghiemController.cs",
               "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\Controllers\\ListTracNghiemController.cs",
               "RelativeDocumentMoniker": "StudyHub\\Controllers\\ListTracNghiemController.cs",
               "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub\\Controllers\\ListTracNghiemController.cs",
               "RelativeToolTip": "StudyHub\\Controllers\\ListTracNghiemController.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAcwDoAAAAFAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T01:44:55.385Z",
+              "WhenOpened": "2024-05-11T05:23:02.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ListTracNghiemBLL.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\ListTracNghiemBLL.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\ListTracNghiemBLL.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.BLL\\ListTracNghiemBLL.cs",
+              "RelativeToolTip": "StudyHub.BLL\\ListTracNghiemBLL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T05:22:38.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CotDiemDAL.cs",
+              "DocumentMoniker": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\CotDiemDAL.cs",
+              "RelativeDocumentMoniker": "StudyHub.DAL\\CotDiemDAL.cs",
+              "ToolTip": "D:\\LEARNING SCHOOL\\Semester2_Year3\\LT_CO_SO_DL\\StudyHub_.Net8\\StudyHub.DAL\\CotDiemDAL.cs",
+              "RelativeToolTip": "StudyHub.DAL\\CotDiemDAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAwCkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T02:53:16.965Z",
               "EditorCaption": ""
             }
           ]

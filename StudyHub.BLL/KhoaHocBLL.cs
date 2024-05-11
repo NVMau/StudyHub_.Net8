@@ -21,5 +21,19 @@ namespace StudyHub.BLL
         {
             return _khoaHocDAL.GetKhoaHocByTen(tenKhoaHoc);
         }
+
+        public KhoaHoc? GetKhoaHocById(int idKhoaHoc)
+        {
+            return _khoaHocDAL.GetKhoaHocById(idKhoaHoc);
+        }
+
+
+        public HocKy? GetHocKyById(int idKhoaHoc)
+        {
+            return _khoaHocDAL.GetHocKyById(idKhoaHoc);
+        }
+
+
+
     }
 }

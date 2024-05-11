@@ -17,5 +17,25 @@ namespace StudyHub.DAL
                 .Where(kh => kh.TenKhoaHoc.Contains(tenKhoaHoc))
                 .ToList();
         }
+
+
+
+
+        public KhoaHoc? GetKhoaHocById(int idKhoaHoc)
+        {
+            return _context.KhoaHocs.FirstOrDefault(kh => kh.IdKhoaHoc == idKhoaHoc);
+        }
+
+
+
+        public HocKy? GetHocKyById(int idKhoaHoc)
+        {
+            var kh = _context.KhoaHocs.FirstOrDefault(kh => kh.IdKhoaHoc == idKhoaHoc);
+
+
+            return _context.HocKies.FirstOrDefault(ky => ky.IdHocKy == kh.IdHocKy);
+
+
+        }
     }
 }

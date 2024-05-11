@@ -31,6 +31,38 @@ namespace StudyHub.Controllers
     }
 
 
+    public class DiemofsinhvienDto
+    {
+        public string Tencotdiem { get; set; }
+        public double Diem { get; set; }
+    }
+
+
+    public class SinhVienDiemDto
+    {
+        public int IdSinhVien { get; set; }
+
+        public string FirstName { get; set; } = null!;
+
+        public string LastName { get; set; } = null!;
+
+
+        public List<DiemofsinhvienDto> Diems { get; set; }
+    }
+
+    public class BangDiemtheoKH
+    {
+
+        public string TenKhoaHoc { get; set; } = null!;
+
+        public string NamHocKy { get; set; } = null!;
+        public List<SinhVienDiemDto> SinhViens { get; set; }
+    }
+
+
+
+
+
     [Route("api/[controller]")]
     [ApiController]
     public class CotDiemController : ControllerBase
@@ -39,6 +71,8 @@ namespace StudyHub.Controllers
         private readonly BaiTapBLL _baiTapBLL;
         private readonly SinhVienLamBaiBLL _sinhVienLamBaiBLL;
         private readonly CauHoiBLL _cauHoiBLL;
+        private readonly KhoaHocBLL _khoaHocBLL;
+
 
 
 
@@ -48,6 +82,7 @@ namespace StudyHub.Controllers
             _baiTapBLL = new BaiTapBLL();
             _sinhVienLamBaiBLL = new SinhVienLamBaiBLL();
             _cauHoiBLL = new CauHoiBLL();
+            _khoaHocBLL = new KhoaHocBLL();
         }
 
 
@@ -187,5 +222,61 @@ namespace StudyHub.Controllers
             }
             return Ok(cotDiems);
         }
+
+        //API xuat diem by khoa hoc
+        [HttpGet("xuat-diem-kh{idKhoaHoc}")]
+        public IActionResult GetBangDiemByKhoaHoc(int idKhoaHoc)
+        {
+
+
+
+
+            var sinhVienDiemList = new List<SinhVienDiemDto>();
+
+            // Lấy danh sách sinh viên trong khóa học và điểm của họ
+            var sinhVienList = _cotDiemBLL.GetSinhVienByKhoaHoc(idKhoaHoc);
+
+            foreach (var sinhVien in sinhVienList)
+            {
+                var danhsachlambai = _cotDiemBLL.GetCotDiemsByKhoaHocAndUser(idKhoaHoc, sinhVien.IdUser);
+
+
+                var diemList = new List<CotDiem>();
+                foreach (var bailam  in danhsachlambai)
+                {
+                    var diem = _cotDiemBLL.GetCotDiemById(bailam.IdCotDiem);
+                    diemList.Add(diem);
+
+                } 
+                var sinhVienDiem = new SinhVienDiemDto
+                {
+                    IdSinhVien = sinhVien.IdUser,
+                    FirstName = sinhVien.FirstName,
+                    LastName = sinhVien.LastName,
+                    Diems = diemList.Select(d => new DiemofsinhvienDto
+                    {
+                        Tencotdiem = d.TenCotDiem,
+                        Diem = d.Diem
+                    }).ToList()
+                };
+                sinhVienDiemList.Add(sinhVienDiem);
+            }
+
+
+            var bangDiemtheoKH = new BangDiemtheoKH()
+            {
+                NamHocKy = _khoaHocBLL.GetHocKyById(idKhoaHoc).NamHocKy,
+                SinhViens = sinhVienDiemList,
+                TenKhoaHoc = _khoaHocBLL.GetKhoaHocById(idKhoaHoc).TenKhoaHoc
+            };
+
+
+            return Ok(bangDiemtheoKH);
+        }
+
     }
+
+
+
+
 }
