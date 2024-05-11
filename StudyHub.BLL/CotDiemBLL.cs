@@ -18,6 +18,9 @@ namespace StudyHub.BLL
             return _cotDiemDAL.AddSinhVienLamBai(sinhVienLamBai);
         }
 
+
+
+
         public IEnumerable<SinhVienLamBai> GetCotDiemsByKhoaHocAndUser(int idKhoaHoc, int idUser)
         {
             return _cotDiemDAL.GetCotDiemsByKhoaHocAndUser(idKhoaHoc, idUser);

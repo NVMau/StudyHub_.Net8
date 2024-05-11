@@ -29,5 +29,11 @@ namespace StudyHub.BLL
         }
 
 
+        public IEnumerable<SinhVienKhoaHoc> GetSinhVienKhoaHocBySV(int idSinhhVien)
+        {
+            return _sinhVienKhoaHocDAL.GetSinhVienKhoaHocBySV(idSinhhVien);
+        }
+
+
     }
 }

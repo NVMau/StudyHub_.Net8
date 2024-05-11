@@ -29,5 +29,15 @@ namespace StudyHub.DAL
             _context.SaveChanges();
             return true;
         }
+
+
+        public IEnumerable<SinhVienKhoaHoc> GetSinhVienKhoaHocBySV(int idSinhhVien)
+        {
+             
+
+
+            return _context.SinhVienKhoaHocs.Where(svkh => svkh.IdSinhVien == idSinhhVien).ToList();
+        }
+
     }
 }

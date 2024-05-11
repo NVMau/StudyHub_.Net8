@@ -55,6 +55,18 @@ namespace StudyHub.DAL
                 .FirstOrDefault(ch => ch.IdCauHoi == cauHoiId);
             return cauHoi;
         }
+
+        public CauHoi? GetCauHoiByIdDapAn(int IdDapAn)
+        {
+            var dapAn = context.DapAns.FirstOrDefault(da => da.IdDapAn == IdDapAn);
+
+            return context.CauHois
+                .Include(ch => ch.DapAns)
+                .FirstOrDefault(ch => ch.IdCauHoi == dapAn.IdCauHoi);
+        }
+
+
+
         public DapAn? GetDapAnDungById(int cauHoiId)
         {
             // Tìm câu hỏi bằng Id

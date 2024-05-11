@@ -1,4 +1,5 @@
 ﻿using StudyHub.DAL.Models;
+using System;
 using System.Linq;
 
 namespace StudyHub.DAL
@@ -12,9 +13,19 @@ namespace StudyHub.DAL
             _context = new HeThongQuanLyHocTapContext();
         }
 
-        public SinhVienLamBai GetSinhVienLamBaiById(int id)
+        public SinhVienLamBai? GetSinhVienLamBaiById(int id)
         {
             return _context.SinhVienLamBais.FirstOrDefault(slb => slb.IdBaiLam == id);
+        }
+
+        public SinhVienLamBai? AddSinhVienLamBai(SinhVienLamBai sinhVienLamBai)
+        {
+
+            _context.SinhVienLamBais.Add(sinhVienLamBai);
+            _context.SaveChanges();
+
+            return sinhVienLamBai;
+
         }
 
         // Các phương thức khác như Add, Update, Delete có thể được thêm vào đây nếu cần

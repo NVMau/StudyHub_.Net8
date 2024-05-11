@@ -36,6 +36,12 @@ namespace StudyHub.BLL
             return _cauHoiDAL.GetCauHoiById(IdCauHoi);
         }
 
+
+        public CauHoi? GetCauHoiByIdDapAn(int IdDapAn)
+        {
+            return _cauHoiDAL.GetCauHoiByIdDapAn(IdDapAn);
+        }
+
         public DapAn? GetDapAnDungById(int IdCauHoi)
         {
             return _cauHoiDAL.GetDapAnDungById(IdCauHoi);

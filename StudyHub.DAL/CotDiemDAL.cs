@@ -21,6 +21,12 @@ namespace StudyHub.DAL
             return sinhVienLamBai;
         }
 
+
+        public SinhVienLamBai? GetSinhVienLamBaibyId(int IdBailam)
+        {
+            return _context.SinhVienLamBais.FirstOrDefault(bl => bl.IdBaiLam == IdBailam);
+        }
+
         public IEnumerable<SinhVienLamBai> GetCotDiemsByKhoaHocAndUser(int idKhoaHoc, int idUser)
         {
             return _context.SinhVienLamBais
