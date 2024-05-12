@@ -12,4 +12,13 @@ namespace StudyHub.modelRequest
         public string Username { get; set; }
         public string Password { get; set; }
     }
+
+    public class CauHoiInfo
+    {
+        public int IdBaiTap { get; set; }
+        public string TenBaiTap { get; set; }
+        public string TenLoaiBaiTap { get; set; }
+        public int ThoiGian { get; set; }
+        public string NoiDung { get; set; }
+    }
 }

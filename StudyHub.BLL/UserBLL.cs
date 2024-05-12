@@ -48,5 +48,11 @@ namespace StudyHub.BLL
         { 
             return _userDAL.GetUserByUsername(username);
         }
+        // cap nhat pass
+        public UserOu ChangePass(int userId, string password)
+        {
+            return _userDAL.ChangePass(userId, password);
+        }
+        
     }
 }

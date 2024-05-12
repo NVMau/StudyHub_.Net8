@@ -50,10 +50,10 @@ namespace StudyHub.DAL
             var existingUser = context.UserOus.Find(user.IdUser);
             if (existingUser != null)
             {
-                // Update existing user properties
-                existingUser.Username = user.Username;
                 existingUser.Email = user.Email;
-                // Update other properties as needed
+                existingUser.Address = user.Address;
+                existingUser.FirstName = user.FirstName;
+                existingUser.LastName = user.LastName;
                 context.SaveChanges();
             }
         }
@@ -82,6 +82,20 @@ namespace StudyHub.DAL
             var user = context.UserOus
                 .FirstOrDefault(u => u.Username == username);
             return user;
+        }
+
+        // đôi pass
+        public UserOu ChangePass(int userId, string password)
+        {
+            var user = context.UserOus
+                .FirstOrDefault(u => u.IdUser == userId);
+            if(user != null)
+            {
+                user.Password = password;
+                context.SaveChanges();
+                return user;
+            }
+            return null;
         }
 
     }
