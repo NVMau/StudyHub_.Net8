@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Text.Json.Serialization;
 namespace StudyHub.DAL.Models;
 
 public partial class UserOu
 {
-    [JsonIgnore]
     public int IdUser { get; set; }
 
     public string Username { get; set; } = null!;
@@ -28,4 +28,13 @@ public partial class UserOu
     public virtual ICollection<SinhVienKhoaHoc> SinhVienKhoaHocs { get; set; } = new List<SinhVienKhoaHoc>();
     [JsonIgnore]
     public virtual ICollection<SinhVienLamBai> SinhVienLamBais { get; set; } = new List<SinhVienLamBai>();
+
+}
+
+public class Jwt
+{
+    public string Key { get; set; }
+    public string Issuer { get; set; }
+    public string Audience { get; set; }
+    public string Subject { get; set; }
 }

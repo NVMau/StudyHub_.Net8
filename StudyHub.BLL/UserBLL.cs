@@ -14,13 +14,12 @@ namespace StudyHub.BLL
             _userDAL = new UserDAL();
         }
 
-        //Bước 2 tạo hàm và gọi tới hàm DAL, chú ý trước đó là kiểu Object nên bên đây cũng trả về kiểu Object -> tới Controller
-        public List<Object> GetAllUsers()
+        public List<UserOu> GetAllUsers()
         {
             return _userDAL.GetAllUsers();
         }
 
-        public Object GetUserById(int userId)
+        public UserOu GetUserById(int userId)
         {
             return _userDAL.GetUserById(userId);
         }
@@ -39,5 +38,21 @@ namespace StudyHub.BLL
         {
             _userDAL.DeleteUser(userId);
         }
+
+        public UserOu GetUserByUsernameAndPassword(string username, string password)
+        {
+            return _userDAL.GetUserByUsernameAndPassword(username, password);
+        }
+
+        public UserOu GetUserByusername(string username)
+        { 
+            return _userDAL.GetUserByUsername(username);
+        }
+        // cap nhat pass
+        public UserOu ChangePass(int userId, string password)
+        {
+            return _userDAL.ChangePass(userId, password);
+        }
+        
     }
 }

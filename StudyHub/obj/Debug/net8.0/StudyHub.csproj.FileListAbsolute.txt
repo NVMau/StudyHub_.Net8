@@ -282,3 +282,4 @@ D:\HOC TAP\Ky2Nam3\ProjectDotNet\StudyHub_.Net8\StudyHub\obj\Debug\net8.0\refint
 D:\HOC TAP\Ky2Nam3\ProjectDotNet\StudyHub_.Net8\StudyHub\obj\Debug\net8.0\StudyHub.pdb
 D:\HOC TAP\Ky2Nam3\ProjectDotNet\StudyHub_.Net8\StudyHub\obj\Debug\net8.0\StudyHub.genruntimeconfig.cache
 D:\HOC TAP\Ky2Nam3\ProjectDotNet\StudyHub_.Net8\StudyHub\obj\Debug\net8.0\ref\StudyHub.dll
+D:\HOC TAP\Ky2Nam3\ProjectDotNet\StudyHub_.Net8\StudyHub\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
